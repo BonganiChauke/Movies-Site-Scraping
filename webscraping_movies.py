@@ -42,3 +42,10 @@ print(df)
 
 # saving to csv file
 df.to_csv(csv_path)
+
+# Storing to database
+
+# initializing database connection
+conn = sqlite3.connect(db_name)
+df.to_sql(table_name, conn, if_exists='replace', index=False)
+conn.close()
