@@ -74,4 +74,4 @@ A Python-based web scraping tool that extracts movie data (titles, ratings, genr
 5. Run Python File
    - Open terminal (`Ctrl + `` `)
    -  ```bash
-       python 
+       python webscraping_movies.py
