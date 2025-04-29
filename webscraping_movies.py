@@ -15,3 +15,7 @@ count = 0
 # loading the webpage for web scraping
 html_page = requests.get(url).text
 data = BeautifulSoup(html_page, 'html.parser')
+
+# scraping the required information
+tables = data.find_all('tbody')
+rows = tables[0].find_all('tr')
