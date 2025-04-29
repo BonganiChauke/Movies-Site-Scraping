@@ -32,5 +32,6 @@ for row in rows:
             count+=1
     else:
         break
-
-    
+ 
+# printing the contents of dataframe
+print(df)    
